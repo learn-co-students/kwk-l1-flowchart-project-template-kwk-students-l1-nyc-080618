@@ -56,55 +56,57 @@
       <link rel="stylesheet" type="text/css" href="/style.css">
   </p><form action="/result" method="POST">
  <h1> The Sorting Survey </h1>
+<form mwthod = "POST" action "/results">
 
-  
   <label class="container">Fashion/Beauty
-  <input type="checkbox" name="category" value="Fashion/Beauty">
+  <input type="checkbox" name="category[]" value="Fashion/Beauty">
   <span class="checkmark"></span>
 </label>
 
 <label class="container">Books/reading 
-  <input type="checkbox">
+  <input type="checkbox" name=name="category[]" value="Fashion/Beauty">
+
   <span class="checkmark"></span>
 </label>
 
 <label class="container">Science
   
-  <input type="checkbox">
+  <input type="checkbox"name="category[]">
   <span class="checkmark"></span>
 </label>
 
 <label class="container">Technology
 
-  <input type="checkbox">
+  <input type="checkbox"name="category[]">
   <span class="checkmark"></span>
   </label>
   
   <label class="container">Law
-  <input type="checkbox">
+  <input type="checkbox"name="category[]">
   <span class="checkmark"></span>
     </label>
   
   <label class="container">Business
-   <input type="checkbox">
+   <input type="checkbox"name="category[]">
     <span class="checkmark"></span> 
     </label>
     
  <label class="container">Art
-  <input type="checkbox">
+  <input type="checkbox"name="category[]">
   <span class="checkmark"></span> 
       </label>
       
  <label class="container">Education
-  <input type="checkbox">
+  <input type="checkbox"name="category[]">
   <span class="checkmark"></span> 
+  </label>
 
-<h1> Choose one category, then press enter. </h1>
-  
+  <input type = "submit">
   
   
      
-      </label></form>
+      </label>
+      </form>
     </div>  
   
 
