@@ -3,14 +3,20 @@ class ApplicationController < Sinatra::Base
     set :public_folder, 'public'
     set :views, 'app/views'
   end
+  
   get '/' do
-    erb :quiz
+    erb :main
   end
   
-  post '/results' do
+  post '/result' do
+    puts @params
+    @categories = @params[:category]
     puts @params[:category]
-    
- erb :results
+    erb :results
+  end
+  
+  get '/delete' do
+    erb :delete
   end
  
 

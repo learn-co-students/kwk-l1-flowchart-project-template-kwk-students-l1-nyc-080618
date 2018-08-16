@@ -1,6 +1,22 @@
-
 <body> 
 <h1> 
-<%= "hello you like #{@category}" %>
-</h1>
-</body>
+<% @categories.each do |category| %>
+  <p><%= category %></p> 
+  <% if category == "Fashion/Beauty" %>
+<p> https://www.barefootstudent.com/new_york/jobs/internships/intern_student_for_makeup_school_1920335930 </p>
+<p> https://www.indeed.com/viewjob?jk=92ffc16d433742d4&from=cobra&tk=1cl1v7o6658tm90k&iaal=1 </p>
+  <p>"https://www.google.com/search?client=safari&rls=en&q=beauty+internships&ie=UTF-8&oe=UTF-8&ibp=htl;jobs&sa=X&ved=2ahUKEwi0wZC34fHcAhVKwVkKHagYDqYQiYsCKAB6BAgGEAI#fpstate=tldetail&htidocid=kL_YhJzO6Y-wmumAAAAAAA%3D%3D&htivrt=jobs” </p>
+  <%end%>
+
+
+  <% if category == "Art" %>
+  <p>"Internship: The Metropolitan Museum Of Art
+An amazing art internship at The Met!
+Link: https://www.metmuseum.org/about-the-met/internships"</p>
+  
+
+<%end%>
+<%end%>
+ </h1> 
+
+ </body> 

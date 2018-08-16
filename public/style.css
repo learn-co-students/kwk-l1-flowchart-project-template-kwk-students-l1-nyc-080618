@@ -50,6 +50,26 @@ body {
   
 }
 
+.knockout {
+  
+  -webkit-text-fill-color: url(https://i.pinimg.com/originals/50/90/e2/5090e2f8da9f8a3af371a6925010f95e.jpg
+  ) -80px -80px;
+  -webkit-background-clip: text;
+  font-weight: bold;
+  font-size: 80px;
+  font-family: arial, helvetica;
+width: 600px;
+ margin: 50px auto;
+ text-align: center;
+-webkit-text-fill-color: url(https://i.pinimg.com/originals/50/90/e2/5090e2f8da9f8a3af371a6925010f95e.jpg
+  ) -80px -80px;
+-webkit-text-stroke-width:3px;
+-webkit-text-stroke-width: black;
+
+body{
+  background: #F3FFFA;
+}
+
 
 
 
