@@ -1,0 +1,70 @@
+body,h1 {font-family: "Charcoal", sans-serif;}
+body, html {height: 100%}
+
+body {
+    background-image: url("https://i.paste.pics/6580a17c8d2aada0696692b6d3f4e92b.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+.title {
+    margin-top: 20%;
+    text-align: center;
+    background-color: transparent;
+    /*position: absolute;*/
+    /*top: 40%;*/
+    /*left: 50%;*/
+    /*transform: translate(-50%, -50%);*/
+    font-size: 90px;
+    color: #52464A;
+    font-family: Charcoal
+    
+}
+
+    
+
+.info {
+    margin-top: 2%;
+    text-align: center;
+    /*position: absolute;*/
+    /*top: 55%;*/
+    /*left: 37%;*/
+    /*transform: translate(-29%, -50%);*/
+    color: #52464A;
+    font-size: 25px;
+}
+
+.info_2 {
+ margin: 10;
+  text-align: center;
+  color: #52464A;
+    font-size: 25px
+ 
+}
+
+
+.button {
+  background-color: white;
+  border: none;
+  color: black;
+  padding: 16px 32px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  opacity: 0.6;
+  transition: 0.3s;
+  display: inline-block;
+  text-decoration: none;
+  cursor: pointer;
+   margin: 10;
+    position: absolute;
+    top: 90%;
+    left: 80%;
+    transform: translate(-29%, -50%);
+}
+
+.button:hover {opacity: 1}
+
+
+

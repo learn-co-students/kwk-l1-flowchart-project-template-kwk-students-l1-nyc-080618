@@ -1,6 +1,6 @@
 # Kode with Klossy  - Flowchart Application Project
 
-<img src="https://cl.ly/rQb8/Image%202018-05-08%20at%209.16.17%20AM.png" align="right" hspace="10" vspace="10" width="250">
+<img src="https://cl.ly/rQb8/Image%202018-05-08%20at%209.16.17%20AM.png" align="right" hspace="10" vspace="10" width="250">https://learn.co/tracks/kwk-student-lessons-l1/project-mode/project-mode/kwk-flowchart-project-template#
 
 ## Overview
 

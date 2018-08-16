@@ -1,0 +1,40 @@
+.question {
+  text-align: center;
+  margin-top:12%;
+  font-size: 94px;
+  color: #6d683f		 
+
+;
+  
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color: transparent;
+  padding: 10px;
+}
+.grid-item {
+  background-color: transparent;
+  border: transparent;
+  padding: 20px;
+  font-size: 40px;
+  text-align: center;
+
+}
+
+.clothes_buttons {
+  opacity:0.5;
+  color:black;
+  border: none;
+  background-color: white
+}
+.clothes_buttons:hover {
+  opacity: 1;
+  transition: .5s;
+}
+
+
+
+
+

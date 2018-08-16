@@ -1,0 +1,59 @@
+<body>
+  <h1 class="question"> <b> <%= "How much do you want to spend?" %> </h1> </b>
+  
+  <hr>
+  
+   <div class="grid-container">
+  <div class="grid-item"> 
+  <input class= "pricebuttons" type="button"  value="$0-40" onclick="location.href = '/sportswear1';">
+  </div>
+  <div class="grid-item"> 
+  <input class= "pricebuttons" type="button"  value="$40-100" onclick="location.href = '/sportswear2';">
+  </div>
+  <div class="grid-item">
+    <input class= "pricebuttons" type="button"  value="$100+" onclick="location.href = '/sportswear3'";>
+    </div>  
+  
+</div>
+  
+  <style>
+  
+  .question {
+  text-align: center;
+  margin-top:10%;
+  font-size: 75px;
+  color: #ffbf00;
+  
+}
+  
+  
+    .grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color: transparent;
+  padding: 10px;
+}
+.grid-item {
+  background-color: rgba(255, 255, 255, 0);
+  border: 1px solid rgba(0, 0, 0, 0);
+  padding: 20px;
+  font-size: 40px;
+  text-align: center;
+}
+
+
+.pricebuttons {
+  opacity:0.5;
+  color:black;
+  background-color: transparent;
+  border:none;
+}
+.pricebuttons:hover {
+  opacity: 1;
+  transition: .5s;
+}
+    
+    
+  </style>
+</body>
+</body>
