@@ -51,40 +51,60 @@ body {
 }
 
 .knockout {
-  
-/*HEAD*/
-/*  -webkit-text-fill-color: url(https://i.pinimg.com/originals/50/90/e2/5090e2f8da9f8a3af371a6925010f95e.jpg*/
-/*  ) -80px -80px;*/
-/*  -webkit-background-clip: text;*/
-/*  font-weight: bold;*/
-/*  font-size: 80px;*/
-/*  font-family: arial, helvetica;*/
-/*width: 600px;*/
-/* margin: 50px auto;*/
-/* text-align: center;*/
-/*-webkit-text-fill-color: url(https://i.pinimg.com/originals/50/90/e2/5090e2f8da9f8a3af371a6925010f95e.jpg*/
-/*  ) -80px -80px;*/
-/*-webkit-text-stroke-width:3px;*/
-/*-webkit-text-stroke-width: black;*/
+  background: url(https://i.pinimg.com/originals/dd/a1/61/dda1619b09c1673883469f40c61f6b7c.png) -80px -80px;
+  color: #FFEEE5;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  font-weight: bold;
+  font-size: 70px;
+  font-family: arial, helvetica;
+  width: 600px;
+  margin: 50px auto;
+  text-align: center;
+  color: black;
+  -webkit-text-fill-color: url(https://i.pinimg.com/originals/dd/a1/61/dda1619b09c1673883469f40c61f6b7c.png) -80px -80px; 
+  -webkit-text-stroke-width: 3px;
+  -webkit-text-stroke-color: black;
+}
 
 body{
   background: #F3FFFA;
-/*=======*/
-/*  -webkit-text-fill-color: url(https://i.pinimg.com/originals/50/90/e2/5090e2f8da9f8a3af371a6925010f95e.jpg*/
-/*  ) -80px -80px;*/
-/*  -webkit-background-clip: text;*/
-/*  font-weight: bold;*/
-/*  font-size: 80px;*/
-/*  font-family: arial, helvetica;*/
-/*  width: 600px;*/
-/*  margin: 50px auto;*/
-/*  text-align: center;*/
-/*}*/
-
-body{
-  background: #444;
-/*>>>>>>> ae1917fa019fe183e8b3a77b856404fb8c81f81e*/
 }
+
+.serif {
+    font-family: timesnew roman;
+}
+
+.kwkfont {
+    font-family: times new roman;
+    font-size = 110%
+}
+
+.fonts {
+    font-family: cursive ;
+}
+
+</style>
+</head>
+<body>
+
+.kwktwo {
+  background: url(https://i.pinimg.com/originals/dd/a1/61/dda1619b09c1673883469f40c61f6b7c.png) -80px -80px;
+  color: #FFEEE5;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  font-weight: bold;
+  font-size: 60px;
+  font-family: arial, helvetica;
+  width: 600px;
+  margin: 50px auto;
+  text-align: center;
+  color: black;
+  -webkit-text-fill-color: url(https://i.pinimg.com/originals/dd/a1/61/dda1619b09c1673883469f40c61f6b7c.png) -80px -80px; 
+  -webkit-text-stroke-width: 3px;
+  -webkit-text-stroke-color: black;
+}
+
 
 
 
