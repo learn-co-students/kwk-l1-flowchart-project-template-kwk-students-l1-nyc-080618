@@ -1,0 +1,47 @@
+body {
+  background: linear-gradient(lightblue, #e0ffff, silver);
+  font-family: Palatino;
+}
+
+.format{
+  text-align: center;
+  background: white;
+  font-size: 50px;
+  color:#0066ff;
+
+  
+
+}
+
+.service-heading{
+  text-align: center;
+  color:#2E86C1
+}
+
+h1{
+  background: white;
+  text-align: center;
+  border: solid 4px blue 
+}
+
+h2{
+  background: lightblue;
+  text-align: center;
+  border: dashed .5px #0a2147
+}
+
+nav{
+  color:#0066ff;
+  font-size: 30px;
+  border: 4px solid white
+
+}
+
+.timeline-body{
+  font-size: 25px
+}
+
+h4{
+  font-size: 33px
+}
+
