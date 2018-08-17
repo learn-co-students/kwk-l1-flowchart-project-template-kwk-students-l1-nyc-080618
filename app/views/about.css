@@ -1,0 +1,38 @@
+h2{
+  font-size: 40px;
+  font-family: cursive;
+  font-style: bold;
+  border: 2px solid black;
+}
+body{
+  font-size: 20px;
+  font-family: typewriter;
+  margin: 50px;
+}
+body{
+  background: linear-gradient(aliceblue,rgb(27, 240, 229),darkseagreen);
+}
+img{
+  border: 3px solid black;
+} 
+.testing_1{
+ border: 3px solid white;
+ background: white;
+ margin-left: 450px;
+ margin-right: 450px;
+}
+
+h1{
+font-size: 30px;
+font-family: cursive;
+font-style: bold; 
+margin: 50px;
+} 
+
+ol{
+text-align: left;
+}
+
+ul{
+  text-align: left;
+}
