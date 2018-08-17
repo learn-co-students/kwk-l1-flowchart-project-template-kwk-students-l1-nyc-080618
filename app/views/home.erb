@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    
+    <!--fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Contrail+One" rel="stylesheet">
+
+    <style>
+    *{
+    box-sizing: border-box;
+    }
+
+/* Create three equal columns that floats next to each other */
+    .column {
+    float: center;
+    width: 55.00%;
+    padding: 60px;
+    height: 500px; /* Should be removed. Only for demonstration */
+    }
+
+/* Clear floats after the columns */
+    .row:after {
+    content: "";
+    display: table;
+    clear: both;
+    }
+
+    h1{
+      font-size: 50px;
+      font-family: 'Contrail One', cursive;
+    }
+    
+</style>
+  </head>
+
+  <body>
+    <div class="row">
+      <div class="column">
+      <br><br><br><br><br>
+       <h1><b>MAJOR KEY</b> is a female artist generator designed to help music lovers incorporate more female artists into their listening experience.</h1>
+        
+        <br>
+       <form action="/artist">
+        <select name="genre">
+          <option value="">Select Genre</option>
+          <option value="pop">Pop</option>
+          <option value="indie">Indie</option>
+          <option value="country">Country</option>
+        </select>
+        <input type="submit" value="Generate!">
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
