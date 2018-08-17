@@ -1,0 +1,37 @@
+h1{
+  font-size: 55px;
+  font-family: cursive;
+  font-style: bold;
+  border: 2px solid white;
+  text-shadow: 3px 2px white;
+  
+}
+
+h2{
+  font-size: 25px;
+  font-family: cursive;
+  font-style: bold;
+  border: 2px solid white;
+  text-shadow: 3px 1px white;
+  text-align: center;
+
+}
+
+body{
+  font-size: 20px;
+  font-family: typewriter;
+  margin: 50px;
+  text-indent: 25px;
+  word-spacing: 5px;
+  line-height: 1.5;
+}
+body{
+  background: radial-gradient(darkseagreen, rgb(27, 240, 229),aliceblue);
+}
+
+.testing_1{
+  border: 3px solid white;
+  background: white;
+  margin-left: 450px;
+  margin-right: 450px;
+}
