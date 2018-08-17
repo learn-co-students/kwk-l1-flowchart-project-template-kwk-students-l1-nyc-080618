@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>How are your habits affecting the planet?</title>
+<button type="button" class="btn"><a href= "gaia.html">Back to Home</a></button>
+<style>
+body {
+background-color: #4ee0cf;
+font-family: courier new;
+}
+
+#main {
+width: 60%;
+border: 1px white;
+margin: auto;
+padding: 10px;
+background-color: #5fe8d9;
+border-radius: 10px;
+}
+
+#header {
+  text-align: center;
+margin-top: 0;
+border: 2px white;
+padding: 5px;
+height: 250px;
+}
+
+label {
+width: 150px;
+display: inline-block;
+}
+
+button {
+display: block;
+margin-top: 20px;
+
+}
+
+
+</style>
+<div id="main">
+<div id="header"><h1>How are your daily habits affecting the planet?</h1></div>
+
+
+<p>Do you use plastic bags when grocery shopping?</p>
+<label><input type="radio" name="age" id="yes" value="1" />yes</label>
+<label><input type="radio" name="age" id="no" value="12" />no</label>
+
+<p>How do you comute to work/school?</p>
+<label><input type="radio" name="activity" id="train" value="3" />train</label>
+<label><input type="radio" name="activity" id="radio" value="4" />car</label>
+<label><input type="radio"  name="activity"id="walk" value="3" />walk</label>
+<label><input type="radio"  name="activity"id="bike" value="3" />bike</label>
+
+<p>How often do you drink from a plastic bottle?</p>
+<label><input type="radio" name="genre" id="daily" value="7" />daily</label>
+<label><input type="radio" name="genre" id="weekly" value="7" />weekly</label>
+<label><input type="radio" name="genre" id="monthly" value="7" />monthly</label>
+<label><input type="radio" name="genre" id="never" value="10" />never</label>
+
+
+<button type="submit" value="Submit">Submit</button>
+</td></tr>
+</form>
+
+<p id="answer"></p>
+<p id="answer2"></p>
+</div>
+<script>
+ 
+    
+     document.getElementById("form1").onsubmit=function() {
+     
+     age = parseInt(document.querySelector('input[name = "age"]:checked').value);
+     
+    
+    activity = parseInt(document.querySelector('input[name = "activity"]:checked').value);
+     
+    genre = parseInt(document.querySelector('input[name = "genre"]:checked').value);
+     
+     total= age + activity + genre;
+     
+    
+     document.getElementById("answer").innerHTML = total;
+     
+     
+
+     if(total ==15 ) {
+document.getElementById("answer2").innerHTML = "Try keeping reusable bags in your car for shopping and using public transportation when available.";
+}
+
+   if(total ==12) {
+document.getElementById("answer2").innerHTML = "An easy way to decrease the plastic waste you produce is by using reusable materials instead. Try using reusable bags when shopping and a reusable water bottle! Also, when available use public transportation or walk.";
+}
+  
+  if(total ==14) {
+document.getElementById("answer2").innerHTML = "Try keeping reusable bags in your car so you have them on you when shopping.";
+}   
+
+  if(total ==11) {
+document.getElementById("answer2").innerHTML = "Try using reusable bags and watter bottles.";
+}   
+
+  if(total ==22) {
+document.getElementById("answer2").innerHTML = "Try grabbing a reusable water bottle before leaving the house.";
+}   
+
+  if(total ==23) {
+document.getElementById("answer2").innerHTML = "If public transportation is an option try using it instead. Also grab a reusable water bottle before leaving your house.";
+}   
+
+  if(total ==26) {
+document.getElementById("answer2").innerHTML = "If you have public transportation available to you try to choose that option.";
+}   
+
+  if(total ==25) {
+document.getElementById("answer2").innerHTML = "You're doing great!";
+}   
+       
+     return false; // required to not refresh the page; just leave this here
+     }// end the submit function
+  
+
+</script>
+
+
+
+</body>
+</html>
