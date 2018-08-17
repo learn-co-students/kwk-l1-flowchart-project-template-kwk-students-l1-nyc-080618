@@ -15,14 +15,24 @@ class ApplicationController < Sinatra::Base
     erb :results
   end
   
-  get '/delete' do
-    erb :delete
-  end
- 
-
-
+# =======
+  #   puts "/"
+  #   erb :layout
+  # end
+  
+  # post '/result' do
+    # puts @params
+    # @categories = @params[:category]
+    # puts @params[:category]
+  #   erb :results
+  # end
+  
+# >>>>>>> ae1917fa019fe183e8b3a77b856404fb8c81f81e
 
 end
+
+
+
 
 
 
