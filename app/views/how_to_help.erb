@@ -1,0 +1,34 @@
+<form id="get-zipcode" method='get' action='/result'>
+  <p>What's your zipcode? <input type="text" name="zipcode"> </p>
+  <p><input type="submit"></p>
+</form>
+
+Folder:views 
+File: result.reb
+<% if (@zipcode == "10026" || @zipcode == "10027" || @zipcode =="10030" ||@zipcode == "10037" || @zipcode == "10039") %>
+  <% neighborhood = "central harlem" %>
+
+<% elsif (@zipcode == "10001" || @zipcode == "10011"|| @zipcode == "10018" ||@zipcode == "10019" || @zipcode == "10036")%>
+  <% neighborhood = "chelsea" %>
+
+<% elsif (@zipcode == "10010" || @zipcode == "10016"|| @zipcode == "10017" ||@zipcode == "10022") %>
+  <% neighborhood = "gramercy Park/ murray hill" %>
+
+<% elsif (@zipcode == "10012" ||  @zipcode == "10013" || @zipcode == "10014")
+  neighborhood = "soho greenwich"%>
+
+<% elsif (@zipcode == "10004" || @zipcode == "10005" || @zipcode == "10006" || @zipcode == "10007" || @zipcode == "10038" || @zipcode == "10280")
+  neighborhood = "lower manhattan"%>
+
+<% elsif (@zipcode == "10021" || @zipcode == "10028" || @zipcode == "10044" || @zipcode == "10065" || @zipcode == "10075" || @zipcode == "10128")
+  neighborhood = "upper east side"%>
+<% end %>
+
+<h1><%="#{neighborhood}"%></h1>
+
+<% links = @locations[neighborhood] %>
+
+<h1>Food: </h1><a href='<%= links[0] %>'>Food</a>
+<h1>Time: </h1><a href='<%= links[1] %>'>Time</a>
+<h1>Donations: </h1><a href='<%= links[2] %>'>Donations</a>
+
