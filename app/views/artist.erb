@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <link href="index.css" rel="stylesheet" type="text/css" />
+  </head>
+    <style>
+    
+    body{
+      background: url("http://i66.tinypic.com/2nbee6x.jpg"), purple;
+      background: url("http://i66.tinypic.com/2nbee6x.jpg"), -webkit-linear-gradient(to left, purple, blue);
+      background: url("http://i66.tinypic.com/2nbee6x.jpg"), linear-gradient(to left, purple, blue);
+  
+      
+    }
+    a {
+      color: yellow;
+    }
+    
+    * {
+    box-sizing: border-box;
+    }
+
+/* Create three equal columns that floats next to each other */
+    .column {
+    float: center;
+    width: 60.33%;
+    padding: 80px;
+    height: 500px; /* Should be removed. Only for demonstration */
+    }
+
+/* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+
+</style>
+
+  
+   <body>
+    <div class="column">
+      <div class="row">
+        <p>
+            <img src="<%=@artist['img']%>" style=height:100px>
+            <br>
+            </p>
+           
+    <h1>Artist: <b> <%=@artist['name']%> </b></h1>
+      <br>
+  
+      <br>
+          <br>   
+          <p><b>genre: </b><%=@genre%>
+          <br><b>instagram: </b> <a href= "https://www.instagram.com/<%=@artist['insta']%>/?hl=en"><%=@artist['insta']%> </a>
+          <br><b>twitter: </b> <a href= "https://www.twitter.com/<%=@artist['twitter']%>"><%=@artist['twitter']%> </a>
+          <br><b>listen to: </b><a href= "https://open.spotify.com/artist/<%=@artist['id']%>"> <%=@artist['song']%> </a>
+          
+          
+          
+          <b></b>
+               
+      <br>
+      <br>
+      <b>biography: </b> <%=@artist['bio']%>
+      <br><br>
+</p>
+        
+
+  </body>
+</html>
