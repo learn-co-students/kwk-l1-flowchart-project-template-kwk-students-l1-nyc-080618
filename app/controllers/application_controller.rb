@@ -26,6 +26,9 @@ class ApplicationController < Sinatra::Base
     erb :artist
   end
   
+  get '/playlist' do
+    erb :playlist
+  end   
  
 end
 

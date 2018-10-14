@@ -39,7 +39,7 @@
 
 /* Create three equal columns that floats next to each other */
   .column {
-    float: left;
+    float: center;
     width: 50%;
     padding: 80px;
     height: 500px; /* Should be removed. Only for demonstration */
@@ -57,8 +57,10 @@
    
     <div class="row">
       <div class="column">
+        <br><br><br><br>
       
       <p>
+        
         <!--<img src="<%=@artist['img']%>" style=height:100px>-->
         <iframe src="https://open.spotify.com/follow/1/?uri=spotify:artist:<%=@artist['id']%>&size=detail&theme=dark" width="300" height="56" scrolling="no" frameborder="0" style="border:none; overflow:hidden;" allowtransparency="true"></iframe>
       </p>
@@ -67,7 +69,7 @@
           <p><b>genre: </b><%=@genre%>
           <br><b>instagram: </b> <a href= "https://www.instagram.com/<%=@artist['insta']%>/?hl=en"><%=@artist['insta']%> </a>
           <br><b>twitter: </b> <a href= "https://www.twitter.com/<%=@artist['twitter']%>"><%=@artist['twitter']%> </a>
-          <br><b>listen to: </b><a href= "https://open.spotify.com/artist/<%=@artist['id']%>"> <%=@artist['song']%> </a>
+          <br><b>most recent release: </b><%=@artist['song']%></a>
           </p>
         <p><b>biography: </b> <%=@artist['bio']%></p>
         
@@ -82,8 +84,8 @@
             </form>
   </div>
   <div class="column">
-    <br><br><br><br>
-    <iframe src="https://open.spotify.com/embed/album/4sSXylKcBB3p47VfrBJlfK" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+    <br><br><br><br><br><br><br>
+    <iframe src="https://open.spotify.com/embed/album/<%=@artist['album']%>" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
   </div>
 </div>
   </body>
