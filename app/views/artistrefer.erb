@@ -1,0 +1,44 @@
+   <body>
+    <div class="row">
+      <div class="column">
+      
+        <p>
+            <img src="<%=@artist['img']%>" style=height:100px>
+            <br>
+            </p>
+           
+    <h1>Artist: <b> <%=@artist['name']%> </b></h1>
+          <br><b>genre: </b><%=@genre%>
+          <br><b>instagram: </b> <a href= "https://www.instagram.com/<%=@artist['insta']%>/?hl=en"><%=@artist['insta']%> </a>
+          <br><b>twitter: </b> <a href= "https://www.twitter.com/<%=@artist['twitter']%>"><%=@artist['twitter']%> </a>
+          <br><b>listen to: </b><a href= "https://open.spotify.com/artist/<%=@artist['id']%>"> <%=@artist['song']%> </a>
+          
+          
+          
+          <b></b>
+               
+      <br>
+      <br>
+      <b>biography: </b> <%=@artist['bio']%>
+      <br><br>
+      
+        <br>
+       <form action="/artist">
+        <select name="genre">
+          <option value="">Select Genre</option>
+          <option value="pop">Pop</option>
+          <option value="indie">Indie</option>
+          <option value="country">Country</option>
+        </select>
+        <input type="submit" value="Generate!">
+        </form>
+    </div>
+    </p>
+    
+    <div class="column">
+      <iframe src="https://open.spotify.com/follow/1/?uri=spotify:artist:6sFIWsNpZYqfjUpaCgueju&size=detail&theme=light" width="300" height="56" scrolling="no" frameborder="0" style="border:none; overflow:hidden;" allowtransparency="true"></iframe>
+    </div>
+    </div>
+    
+    
+  </body>

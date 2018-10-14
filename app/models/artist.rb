@@ -12,9 +12,9 @@ def all
     "insta" => "marenmorris", 
     "twitter" => "MarenMorris",
     "song" => "My Church",
-    "bio" => "Maren Morris is a singer and songwriter whose music bridges the gap between hard country, classic rock, and hip-hop-influenced pop; she has enjoyed success as both a tunesmith and a performer. Morris was born in Dallas, Texas on April 10, 1990 and she grew up with a love of music, saying she was always willing to belt out a tune on the family's karaoke machine by age ten. By the time she was 14, she had learned to play guitar and began playing professionally, self-releasing a debut album, Walk On. Morris had struck a deal with Smith Music Group when she dropped her second album, 2007's All That It Takes; her songwriting was strong enough that she either wrote or co-wrote eight of the album's 13 tracks. Morris graduated high school and was attending the University of North Texas when she self-released her third full-length, 2011's Live Wire. A year later, she left Texas for Nashville, determined to shift her career into high gear.",
+    "bio" => "Maren Morris is a singer and songwriter whose music bridges the gap between hard country, classic rock, and hip-hop-influenced pop; she has enjoyed success as both a tunesmith and a performer. Morris was born in Dallas, Texas on April 10, 1990 and she grew up with a love of music, saying she was always willing to belt out a tune on the family's karaoke machine by age ten.",
     "img" => "https://upload.wikimedia.org/wikipedia/en/thumb/0/02/Maren_Morris.jpg/1200px-Maren_Morris.jpg"
-    
+
   },
 
 
@@ -25,8 +25,7 @@ def all
     "insta" => "kelseaballerini", 
     "twitter" => "KelseaBallerini",
     "song" => "Legends",
-    "bio" => "A country-pop singer and songwriter out of Knoxville, Tennessee, Kelsea Ballerini started writing songs when she was 13 years old, began learning guitar a year later, and moved to Nashville at 15 to pursue her dream of being a professional singer and songwriter. Four years later in 2013, when she was 19, Ballerini signed a publishing deal with Black River Publishing and a recording deal with Black River Entertainment later that same year. A debut single, 'Love Me Like You Mean It,' appeared from the label in 2014; the single slowly became a big hit, reaching number five on the Billboard country singles charts and number one on its country airplay charts. A digital EP, simply titled Kelsea Ballerini, was released in November 2014, and as word about Ballerini spread, she was named one of 2014's Next Women of Country by CMT and appeared on the Grand Ol' Opry for the first time on February 13, 2015. In May 2015, Black River released Ballerini's first full-length album, The First Time; it debuted at four on Billboard's U.S. country charts and 31 on the Billboard Top 200, eventually going gold. In June 2017, Ballerini released 'Legends,' the first single from her follow-up LP Unapologetically, which appeared in November. ~ Steve Leggett, Rovi",
-    "img" => "https://s1.ticketm.net/tm/en-us/dam/a/1ad/307535bf-8f1f-4d1e-a623-ce9d624301ad_549351_CUSTOM.jpg"
+    "bio" => "A country-pop singer and songwriter out of Knoxville, Tennessee, Kelsea Ballerini started writing songs when she was 13 years old, and moved to Nashville at 15 to pursue her dream of being a professional singer and songwriter. A debut single, 'Love Me Like You Mean It,' slowly became a big hit, reaching number five on the Billboard country singles charts. She was named one of 2014's Next Women of Country by CMT and appeared on the Grand Ol' Opry for the first time on February 13, 2015. "
   },
 
 {
@@ -36,8 +35,7 @@ def all
   "insta" => "mirandalambert", 
   "twitter" => "mirandalambert",
   "song" => "To Learn Her",
-    "bio" => "Miranda Lambert defied all conventional notions of how a credible country career should proceed. Following an adolescence where she alternated between singing and acting, she came to prominence not as the winner but as a runner-up on the 2003 American Idol knockoff Nashville Star, a dubious stepping stone to stardom if ever there was one, but Lambert's 2005 Kerosene obliterated any notion that she was a reality TV refugee. Filled with lithe, powerful, neo-traditional country songs, many penned by Lambert herself, Kerosene established the singer/songwriter as a commercial force to be reckoned with, while its 2007 sequel, Crazy Ex-Girlfriend, pulled off the trick of turning her into a superstar while confirming she was a writer of considerable substance. From there, the hits piled up fast and furious -- most of them from her multi-platinum records Revolution, Four the Record and Platinum, but some coming from her side project Pistol Annies -- and tabloid headlines started to flow after she married fellow country star Blake Shelton in 2011. By that point, she could weather the gossip because there was no mistaking Miranda Lambert as anything but a major figure in country music.",
-    "img" => "http://www2.pictures.stylebistro.com/gi/Miranda+Lambert+Long+Hairstyles+Layered+Cut+q8YL5c85dCxx.jpg"
+    "bio" => "Miranda Lambert defied all conventional notions of how a credible country career should proceed. Following an adolescence where she alternated between singing and acting, she came to prominence not as the winner but as a runner-up on the 2003 American Idol knockoff Nashville Star. Filled with lithe, powerful, neo-traditional country songs, many penned by Lambert herself, her album Kerosene established the singer/songwriter as a commercial force to be reckoned with. "
 },
 
 {
@@ -47,8 +45,7 @@ def all
   "insta" => "dixie_chicks", 
   "twitter" => "dixiechicks",
   "song" => "Goodbye Earl",
-    "bio" => "Formed in 1989 as a Western-themed bluegrass band, the Dixie Chicks eventually became one of the most popular acts in contemporary country music, as well as the highest-selling female group in America. Beginning with 1998's Wide Open Spaces, they struck a balance between the commercial, radio-ready aesthetic of country-pop and the rootsy sound of neo-traditionalist country, a combination that helped distinguish the trio from such concurrent stars as Shania Twain. The Dixie Chicks further distanced themselves from country's conservative boundaries as their career progressed, although their outspoken beliefs -- specifically Natalie Maines' open criticism of the war in Iraq, which ignited a backlash in 2003 -- were sometimes voiced to the detriment of the band's sales. Nevertheless, the Dixie Chicks remained a compelling band in concert and on record, boasting three-part harmonies and an instrumental prowess that was virtually unparalleled among similar groups.",
-    "img" => "http://artist3.cdn107.com/937/937ed13eaa2cce89486b34a2e6f86847_lg.jpg"
+    "bio" => "Formed in 1989 as a Western-themed bluegrass band, the Dixie Chicks eventually became one of the most popular acts in contemporary country music, as well as the highest-selling female group in America. Beginning with 1998's Wide Open Spaces, they struck a balance between the commercial, radio-ready aesthetic of country-pop and the rootsy sound of neo-traditionalist country, a combination that helped distinguish the trio from such concurrent stars as Shania Twain. "
 },
 
 
@@ -59,8 +56,7 @@ def all
   "insta" => "dollyparton", 
   "twitter" => "DollyParton",
   "song" => "Jolene",
-    "bio" => "It's difficult to find a country performer who has moved from her country roots to international fame more successfully than Dolly Parton. Her autobiographical single 'Coat of Many Colors' shows the poverty of growing up one of 12 children on a rundown farm in Locust Ridge, Tennessee. At 12 years old, she was appearing on Knoxville television; at 13 she was recording on a small label and appearing on the Grand Ole Opry. Her 1967 hit 'Dumb Blonde' (which she's not) caught Porter Wagoner's ear, and he hired Parton to appear on his television show, where their duet numbers became famous. By the time her 'Joshua' reached number one in 1970, Parton's fame had overshadowed her boss', and she had struck out on her own, though she still recorded duets with him. During the mid-'70s, she established herself as a country superstar, crossing over into the pop mainstream in the early '80s, when she smoothed out the rough edges in her music and began singing pop as well as country. In the early '80s, she also began appearing in movies, most notably the hit 9 to 5. Though her savvy marketing, image manipulation (her big dumb blond stage persona is an act), extracurricular forays into film, and flirtations with country-pop have occasionally overshadowed her music, at her core Parton is a country gal and a tremendously gifted singer/songwriter.",
-    "img" => "http://www.soundslikenashville.com/wp-content/uploads/2017/10/Dolly-Parton-1509387566.jpg"
+    "bio" => "It's difficult to find a country performer who has moved from her country roots to international fame more successfully than Dolly Parton. During the mid-'70s, she established herself as a country superstar, crossing over into the pop mainstream in the early '80s, when she smoothed out the rough edges in her music and began singing pop as well as country. In the early '80s, she also began appearing in movies, most notably the hit 9 to 5. "
 },
 
 
@@ -71,8 +67,7 @@ def all
   "insta" => "faithhill", 
   "twitter" => "faithhill",
   "song" => "The Rest of Our Lives",
-    "bio" => "Faith is one of the top-selling and most-awarded female artists of all time.  In addition to multiple nominations and 5 Grammy Awards, Hill has won an impressive list of awards, including multiple Billboard Music, American Music and People’s Choice Awards. She has consistently broken chart records with her #1 singles and has had major crossover success with the hits “This Kiss,” “Breathe,” “Cry” and “There You’ll Be.” She has had multiple albums top both the Billboard Top 100 and country charts simultaneously and has sold more than 30 million albums worldwide. She has had 3 network TV specials that garnered top ratings and has appeared and performed on every major award show, including twice on the prestigious Academy Awards. In 2000, Faith performed the National Anthem to a global audience of over 88.5 million viewers at Super Bowl XXXIV in Atlanta and is the only country artist and one of only three artists ever to perform both “The Star Spangled Banner” and “God Bless America” at Super Bowls. This fall, Hill, alongside former “Oprah” co-executive producer and OWN executive Lisa Erspamer, will co-produce an innovative new daytime lifestyle show based in Nashville.",
-    "img" => "https://cps-static.rovicorp.com/3/JPG_400/MI0003/893/MI0003893823.jpg?partner=allrovi.com"
+    "bio" => "Faith is one of the top-selling and most-awarded female artists of all time.  In addition to multiple nominations and 5 Grammy Awards, Hill has won an impressive list of awards, including multiple Billboard Music, American Music and People’s Choice Awards. She has consistently broken chart records with her #1 singles and has had major crossover success with the hits “This Kiss,” “Breathe,” “Cry” and “There You’ll Be."
 },
 
 {
@@ -82,8 +77,7 @@ def all
   "insta" => "trishayearwood",  
   "twitter" => "trishayearwood",
   "song" => "I Need You",
-    "bio" => "One of the most popular female country singers of the '90s, Trisha Yearwood initially rose to fame as a protégée of Garth Brooks but quickly staked out her own identity as an assertive yet vulnerable modern woman. Yearwood was born in the small town of Monticello, Georgia in 1964 and grew up on a farm owned by her father, who also worked as a prominent local banker. She loved Elvis Presley as a child and sang in musicals, choral groups, and talent shows while in school. She enrolled at the University of Georgia, but in 1985 she transferred to the music business program at Belmont College in Nashville. Yearwood served an internship with MTM Records and soon moved on to become an in-demand demo singer, which resulted in an up-and-coming Brooks hiring her as a backup vocalist. Yearwood appeared on Brooks' 1989 debut and its blockbuster follow-up, No Fences, and with the help of producer Garth Fundis, she staged a showcase performance in 1990 that landed her a record deal with MCA.",
-    "img" => "https://m.media-amazon.com/images/M/MV5BNDkxNTM5NzM4OF5BMl5BanBnXkFtZTYwMTYzODM0._V1_UX214_CR0,0,214,317_AL_.jpg"
+    "bio" => "One of the most popular female country singers of the '90s, Trisha Yearwood initially rose to fame as a protégée of Garth Brooks but quickly staked out her own identity as an assertive yet vulnerable modern woman. She loved Elvis Presley as a child and sang in musicals, choral groups, and talent shows while in school. Yearwood appeared on Brooks' 1989 debut and its blockbuster follow-up, No Fences, and with the help of producer Garth Fundis, she staged a showcase performance in 1990 that landed her a record deal with MCA."
 },
 
 {
@@ -93,8 +87,7 @@ def all
   "insta" => "laurenalaina",  
   "twitter" => "Lauren_Alaina",
   "song" => "Road Less Traveled",
-    "bio" => "The runner-up on the 2011 season of Fox's American Idol, Lauren Alaina is a Southern singer with a bent toward contemporary country-pop. Born in 1994 in Rossville, Georgia, Alaina first began singing around age three and grew up listening to country music. Prior to American Idol, she was a cheerleader at her high school and performed regularly around Georgia, where she won the WinniSTAR youth talent contest in 2009. She competed in the finals of the tenth season of American Idol against ultimate winner Scotty McCreery -- also a young country singer -- and eventually earned the silver medal.",
-    "img" => "http://cache.umusic.com/_sites/_halo/laurenalainaofficial/images/og.jpg"
+    "bio" => "The runner-up on the 2011 season of Fox's American Idol, Lauren Alaina is a Southern singer with a bent toward contemporary country-pop. Born in 1994 in Rossville, Georgia, Alaina first began singing around age three and grew up listening to country music. She competed in the finals of the tenth season of American Idol against ultimate winner Scotty McCreery—also a young country singer—and eventually earned the silver medal."
 },
 
 {
@@ -104,8 +97,7 @@ def all
   "insta" => "shaniatwain", 
   "twitter" => "ShaniaTwain",
   "song" => "Man! I Feel Like a Woman!",
-    "bio" => "Emerging in the mid-'90s, Shania Twain became the most popular country music artist since Garth Brooks. Skillfully fusing mainstream, AOR rock production with country-pop, Twain and her producer/husband, Robert John Mutt Lange, created a commercial juggernaut with her second album, The Woman in Me. The record became a multi-platinum phenomenon, peaking at number five on the pop charts and eventually selling over nine million copies in America alone. Twain might have sold a lot of records, but like other mega-selling acts before her, she earned few good reviews -- most critics accused her of diluting country with bland, anthemic hard rock techniques and shamelessly selling her records with sexy videos. Fans ignored such complaints, mainly because her audience was comprised of many listeners who had grown accustomed to such marketing strategies by constant exposure to MTV. And Twain, in many ways, was the first country artist to fully exploit MTV's style. She created a sexy, video-oriented image -- she didn't even tour during the year when The Woman in Me was on the top of the country charts -- that appealed not only to the country audience, but also to pop fans. In turn, she became a country music phenomenon.",
-    "img" => "https://media.vanityfair.com/photos/5addee6da342ec2552ce87a3/master/pass/t-Shania-Twain-Trump.jpg"
+    "bio" => "Emerging in the mid-'90s, Shania Twain became the most popular country music artist since Garth Brooks. Skillfully fusing mainstream, AOR rock production with country-pop, Twain and her producer/husband, Robert John Mutt Lange, created a commercial juggernaut with her second album, The Woman in Me. She became a country music phenomenon."
 },
 
 {
@@ -115,8 +107,7 @@ def all
   "insta" => "raelynnofficial", 
   "twitter" => "raelynn",
   "song" => "Queens Don't",
-    "bio" => "“Queens Don’t” is the first new music from RaeLynn since her debut record WildHorse arrived at No. 1 on Billboard's Country Albums Chart and Top 10 on Billboard's All-Genre Albums Sales Chart upon release. With 11 of the 12 tracks co-written by RaeLynn, the project was recognized as one of the 40 Best Country and Americana Albums of 2017 by Rolling Stone and a Best Country Album by UPROXX and Stereogum in addition to being a “People Picks” by People. The album’s lead single “Love Triangle” tells her personal story in a way that 'is a raw and emotional account of what it’s like to be the child of divorced parents' (People), which media and fans immediately gravitated toward. The songstress is fully embracing her role as the face of Too Faced’s “Life’s A Festival” spring collection, with the release of her new song “Festival” as an homage to the collection and the inspirations she draws from it. RaeLynn is the first country artist chosen to represent a Too Faced collection, joining the likes of Katy Perry, Francesca Eastwood and Ireland Baldwin, among others. RaeLynn has tallied 200 million plus cumulative career streams. The breakout star has earned numerous award nominations from Academy of Country Music Awards, Radio Disney Music Awards and CMT Music Awards. She has performed on several national TV shows including TODAY, Late Night with Seth Meyers and ELLEN.",
-    "img" => "https://pbs.twimg.com/profile_images/1009549210457427969/PIKlmdID_400x400.jpg"
+    "bio" => "“Queens Don’t” is the first new music from RaeLynn since her debut record WildHorse arrived at No. 1 on Billboard's Country Albums Chart and Top 10 on Billboard's All-Genre Albums Sales Chart upon release. With 11 of the 12 tracks co-written by RaeLynn, the project was recognized as one of the 40 Best Country and Americana Albums of 2017 by Rolling Stone and a Best Country Album by UPROXX and Stereogum in addition to being a “People Picks” by People."
 },
 
 {
@@ -126,8 +117,7 @@ def all
   "insta" => "jillianjacqeline",  
   "twitter" => "jillianjmusic",
   "song" => "Hate Me",
-    "bio" => "While most music fans weren't aware of Jillian Jacqueline until she released her single Overdue in 2014, she already had an impressive career in show business before she was old enough to enroll in junior high. Jacqueline was born in Chester Springs, Pennsylvania, and spent most of her childhood there, before moving to New York City in her early teens. A precocious talent inspired by the music playing on the family's stereo -- including Patsy Cline, Elvis Presley, the Dixie Chicks, Carole King, James Taylor, and Patty Loveless -- Jacqueline began singing at an early age, and was performing at local coffee shops when she was only seven years of age. When she was eight, Jacqueline recorded an album in her guitar player's home studio. A year later, Jacqueline became part of the cast of Christmas from the Heart, a Yuletide revue starring Kenny Rogers that ran for three months on Broadway. Jacqueline spent the next several years as part of Rogers' touring show, and through Rogers she was introduced to Billy Dean and Suzy Bogguss, who invited the young vocalist to join them on a duet single, Keep Mom and Dad in Love, in 2001.",
-    "img" => "https://www.songhall.org/images/uploads/news/Jillian-Jacqueline.jpg"
+    "bio" => "While most music fans weren't aware of Jillian Jacqueline until she released her single Overdue in 2014, she already had an impressive career in show business before she was old enough to enroll in junior high. A precocious talent inspired by the music playing on the family's stereo —  including Patsy Cline, Elvis Presley, the Dixie Chicks, Carole King, James Taylor, and Patty Loveless —  Jacqueline began singing at an early age, and was performing at local coffee shops when she was only seven years of age. "
 },
 
 {
@@ -137,8 +127,7 @@ def all
   "insta" => "saraevansmusic",  
   "twitter" => "saraevansmusic",
   "song" => "Slow Me Down",
-    "bio" => "Multi-platinum entertainer SARA EVANS is at the top of her game. With five No. 1 Country singles including “No Place That Far,” “Suds In The Bucket, “A Real Fine Place To Start,” “Born to Fly,” and “A Little Bit Stronger,” which spent 2 weeks in the top spot and was certified platinum by the R.I.A.A., Sara thrills audiences across the U.S. playing close to 100 shows each year and in 2018 headlines the “CMT Next Women of Country presents Sara Evans All The Love Tour featuring RaeLynn and Kalie Shorr.” Her “stunning, country voice” (Rolling Stone) has earned her the prestigious Academy of Country Music Top Female vocalist accolade as well as numerous American Music Awards, Billboard Music Awards, Country Music Association, CMT and Grammy Awards nominations. In addition, the CMA awarded Video of the Year honors for her hit chart-topping single, Born to Fly from her double-platinum album of the same name. Evans’ discography also includes the platinum-selling studio albums Real Fine Place and Restless and the gold-certified No Place That Far.",
-    "img" => "https://thebloom.com/wp-content/uploads/2018/05/sara-evans_MG_4177_FX_L2-800.jpg"
+    "bio" => "Multi-platinum entertainer SARA EVANS is at the top of her game. With five No. 1 Country singles including “No Place That Far,” “Suds In The Bucket, “A Real Fine Place To Start,” “Born to Fly,” and “A Little Bit Stronger,” which spent 2 weeks in the top spot and was certified platinum by the R.I.A.A., Sara thrills audiences across the U.S. playing close to 100 shows each year and in 2018 headlines the “CMT Next Women of Country presents Sara Evans All The Love Tour featuring RaeLynn and Kalie Shorr.” "
 },
 
 {
@@ -148,8 +137,7 @@ def all
   "insta" => "carrieunderwood",  
   "twitter" => "carrieunderwood",
   "song" => "The Champion",
-    "bio" => "Carrie Underwood emerged from the promise of her 2005 American Idol win to become a true multi-format, multi-media superstar, spanning achievements in music, television, and film. A seven-time GRAMMY® Award winner, she has sold 64 million records worldwide and recorded 26 #1 singles, 13 of which she co-wrote. In 2013, the Grand Ole Opry starred as Maria von Trapp in NBC’s three-hour holiday blockbuster, the Emmy®-winning The Sound of Music Live!, whose airings attracted 44 million viewers. Her latest platinum studio album, Storyteller, produced four #1 hits. 2017 marked her fifth season as the voice of primetime television’s #1 program, Sunday Night Football and last November, she co-hosted the CMA Awards for the tenth consecutive year. Earlier this year, she released the hit event anthem “The Champion” featuring Ludacris, which she wrote with Brett James, Chris DeStefano and Christopher Bridges PKA Ludacris and was produced by Jim Jonsin to open NBC’s Super Bowl and was incorporated into NBC’s coverage of the 2018 Olympic Winter Games. She is currently working on her sixth studio album, which will be released on Capitol Records Nashville. She recently premiered her new single, “Cry Prety,” which she will perform live on television for the first time on the 53rd Academy of Country Music Awards telecast, where she is also nominated for the 13th time as Female Vocalist of the Year, in addition to a Vocal Event of the Year nomination for “The Fighter” with Keith Urban.",
-    "img" => "https://media.allure.com/photos/5accded11ad4e21236a62586/1:1/w_767/carrie-underwood-healing-pretty-nicely-after-fall-face-stitches.jpg"
+    "bio" => "Carrie Underwood emerged from the promise of her 2005 American Idol win to become a true multi-format, multi-media superstar, spanning achievements in music, television, and film. A seven-time GRAMMY® Award winner, she has sold 64 million records worldwide and recorded 26 #1 singles, 13 of which she co-wrote. She is currently working on her sixth studio album, which will be released on Capitol Records Nashville. "
 },
 
 
@@ -160,7 +148,7 @@ def all
   "insta" => "siamusic",  
   "twitter" => "Sia",
   "song" => "Cheap Thrills",
-    "bio" => "In a career filled with ups and downs, Sia Furler has been an in-demand guest vocalist, a quirky singer/songwriter, a hitmaker for the likes of Rihanna and Beyoncé, and more popular than ever as an artist in her own right in the 2010s. Although raised in Australia, Furler rose to fame after moving to the U.K., where she worked as a guest vocalist for several groups -- including the electronica duo Zero 7 -- and released her own solo albums. Born in 1975, she first performed on the Adelaide jazz circuit during the '90s as a vocalist for the band Crisp. An attempt to launch a solo career in 1997 didn't pan out, though, and she eventually hopped on a plane to London. While there, she landed a gig as a backup singer for Jamiroquai and inked a solo contract with DancePool, a sublabel of Sony.",
+    "bio" => "In a career filled with ups and downs, Sia Furler has been an in-demand guest vocalist, a quirky singer/songwriter, a hitmaker for the likes of Rihanna and Beyoncé, and more popular than ever as an artist in her own right in the 2010s. An attempt to launch a solo career in 1997 didn't pan out, though, and she eventually hopped on a plane to London. While there, she landed a gig as a backup singer for Jamiroquai and inked a solo contract with DancePool, a sublabel of Sony.",
     "img" => "http://www.celebritybeliefs.com/wp-content/uploads/2016/08/sia-furler.jpg"
 },
 
